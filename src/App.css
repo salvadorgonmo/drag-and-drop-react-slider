@@ -1,10 +1,24 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.slider {
+  width: 130%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.slider-item {
+  border: 1px solid white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,6 +28,7 @@
 }
 
 .App-header {
+  width: 100%;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
